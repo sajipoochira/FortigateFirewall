@@ -16,7 +16,7 @@ jobs:
     - name: Run ARM deploy
       uses: azure/arm-deploy@v1
       with:
-        template: ./azuredeploy.json
+        template: ./azure-deploy.json
         
 
       # output containerName variable from template
